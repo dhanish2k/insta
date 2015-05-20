@@ -9,6 +9,7 @@
 <body>
 
 <%= yield %>
-
+<%= link_to("Instagram",'/auth/instagram') %>
+<%= link_to("Signout",:controller=> "sessions", :action=> "destroy") %>
 </body>
 </html>

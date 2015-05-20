@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 
+gem 'omniauth'
+gem 'omniauth-instagram', '~> 1.0.1'
 gem 'figaro'
 gem 'httparty'
 gem 'hashie'
